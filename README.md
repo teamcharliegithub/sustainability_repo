@@ -11,3 +11,6 @@ Rudimentary Rain Reservoir System
  
 ##Rainwater Reservoir System##
 > 
+
+##Python File Description##
+>This user interface will be implemented in Python through the PyCharm Integrated Developer Environment. The environment will utilize data collected from theoretical sensors placed in the wick irrigation system. The code consists of three main functions: a plant growth monitor, compost renewal alerter, and a water tank level monitor. All three functions will begin collecting data in real-time (hours, weeks, months, etc.), which is made possible by the "dateset" and "initializor" helper methods. These begin the timer and start all three functions at the same time. The plant growth monitor takes the photos of the community garden and sets up an array of photo objects so the user can monitor any growth or changes in the garden. The compost renewal system works on a weekly basis, and notifies the user to put in more food waste into the compost bin. Since the compost bin should spread the earthworms out, the notification also indicates which side the user should place the food waste so the earthworms drop compost into the garden evenly. Finally, the water tank level monitor will take the water levels from the float system and send the data to the user. Based off of the water levels, the user can manually open the overflow latch in the resovior.
