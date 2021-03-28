@@ -1,7 +1,7 @@
 # sustainability_repo
 <h1> HooHacks 2021 </h1>
 
-**##Technical Description of Autonomous Wick Irrigation Community Garden System:##**
+**## Technical Description of Autonomous Wick Irrigation Community Garden System:**
 > Our system has three parts. A composting system, a rainwater reservoir and irrigation system, and a plant growth system. Our composting system will take all carbon and nitrogen related inputs from the community in the form of food scraps, lawn clippings, etc. and process it with worms, the compost will be transfered manually to
 > 
 **##Composting System##**
