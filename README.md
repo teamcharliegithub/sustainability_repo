@@ -1,16 +1,17 @@
 # sustainability_repo
 <h1> HooHacks 2021 </h1>
 
-**## Technical Description of Autonomous Wick Irrigation Community Garden System:##**
+Technical Description of Autonomous Wick Irrigation Community Garden System:
 > Our system has three parts. A composting system, a rainwater reservoir irrigation system, and a plant growth system. Our composting system will take all carbon and nitrogen related inputs from the community in the form of food scraps, lawn clippings, etc. and process it with worms into worm casting and nutrient dense liquid (which is compost and "worm tea"). The compost will then be manualy transfered to the community garden boxes to be used as fertilizer and the worm tea will be dumped back into the reservoir system to be diluted and distributed normally.
 > 
-**##Composting System##**
+Composting System:
 > We will be using vermicomposting systems for our community gardens as they are much more efficient than traditional aerobic composting systems. They take much less time which is vital for systems that will serve a hundred or more people, and the worms within the bins can self-multiply within a relatively short time frame. This is vital if more people use the worm bins as the community grows, as the worm population will naturally sustain itself and hover around its carrying capacity within the mini ecosystem. It could also help start up more more pop up community gardens in surrounding areas as they would already have a base population of worms to start with, essentially for free.
 > 
-**## Rainwater Reservoir System##**
-> Our rainwater catching system utilizes a tarp to catch rainwater that flows through an inlet pipe with a wire mesh and rock filter to keep out organisms and objects. The reservoirs are connected by pipes, and the outflow pipe is opened from a motor controlled by a float sensor which will open when the 
-##Rainwater Reservoir System##
+Rainwater Reservoir System:
+> Our rainwater catching system utilizes a tarp to catch rainwater that flows through an inlet pipe with a wire mesh and rock filter to keep out organisms and objects. The reservoirs are connected by pipes, and the outflow pipe is opened from a motor controlled by a float sensor which will open when the water level within the reservoir gets too high. It is also elevated by bricks to aid in the water's capillary action through the wick irrigation system as it travels to the plant boxes. The wick is covered by a plastic tube, and the tubs has holes/openings as it travels through the soil to allow for the plant's roots to access and regulate how much water it absorbs. As long as it is touching the wick, it will self-water.
 > 
+Plant Growth System:
+> The plant growth system utilizes a camera aimed 30º from the horizontal towards the garden that allows for images to be sent to users so that they do not have to manually check up on the garden's growth, or can initially see if there are any problems that have arisen. This allows for the garden to be truly automatic, as you do not have to water or maintain it that often.
 
 ##Python File Description##
 >This user interface will be implemented in Python through the PyCharm Integrated Developer Environment. The environment will utilize data collected from theoretical sensors placed in the wick irrigation system. The code consists of three main functions: a plant growth monitor, compost renewal alerter, and a water tank level monitor. All three functions will begin collecting data in real-time (hours, weeks, months, etc.), which is made possible by the "dateset" and "initializor" helper methods. These begin the timer and start all three functions at the same time. The plant growth monitor takes the photos of the community garden and sets up an array of photo objects so the user can monitor any growth or changes in the garden. The compost renewal system works on a weekly basis, and notifies the user to put in more food waste into the compost bin. Since the compost bin should spread the earthworms out, the notification also indicates which side the user should place the food waste so the earthworms drop compost into the garden evenly. Finally, the water tank level monitor will take the water levels from the float system and send the data to the user. Based off of the water levels, the user can manually open the overflow latch in the resovior.
