@@ -67,7 +67,8 @@ def tank_level():
     log_description = "The current level of the rainwater tank in liters is "
     while True:
         if len(level_log) == 96:
-            level_log = []
+            del level_log[0]
+            level_log = level_log.append(levelmeter)
         levelmeter = board.get_pin('a:15:i')
         level_msg = log_description + str(levelmeter)
         level_log = level_log.append(levelmeter)
